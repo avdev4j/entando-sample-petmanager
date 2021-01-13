@@ -1,0 +1,39 @@
+{
+  "filters": {
+    "field": "",
+    "operator": "",
+    "addFilter": "",
+    "clearFilters": "",
+    "filter": ""
+  },
+  "entities": {
+    "pet": {
+      "name": "",
+      "birth": "",
+      "noItems": "",
+      "deleteDialog": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "common": {
+    "loadingMore": "",
+    "dataDeleted": "",
+    "delete": "",
+    "yes": "",
+    "no": "",
+    "notAuthenticated": ""
+  },
+  "pagination": {
+    "ariaLabels": {
+      "firstPage": "",
+      "previousPage": "",
+      "nextPage": "",
+      "lastPage": ""
+    }
+  },
+  "error": {
+    "dataLoading": ""
+  }
+}

@@ -38,6 +38,7 @@ public class CacheConfiguration {
         return cm -> {
             createCache(cm, "oAuth2Authentication");
             createCache(cm, com.mycompany.myapp.domain.Pet.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Type.class.getName());
             // jhipster-needle-caffeine-add-entry
         };
     }

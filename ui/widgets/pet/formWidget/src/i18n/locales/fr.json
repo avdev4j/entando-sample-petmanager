@@ -1,0 +1,27 @@
+{
+  "common": {
+    "dataSaved": "",
+    "notAuthenticated": "",
+    "dataDeleted": "",
+    "yes": "",
+    "no": "",
+    "delete": "",
+    "cancel": "",
+    "save": ""
+  },
+  "error": {
+    "dataLoading": ""
+  },
+  "entities": {
+    "pet": {
+      "notFound": "",
+      "deleted": "",
+      "name": "",
+      "birth": "",
+      "deleteDialog": {
+        "title": "",
+        "description": ""
+      }
+    }
+  }
+}

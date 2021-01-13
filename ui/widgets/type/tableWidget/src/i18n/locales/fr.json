@@ -1,0 +1,38 @@
+{
+  "filters": {
+    "field": "",
+    "operator": "",
+    "addFilter": "",
+    "clearFilters": "",
+    "filter": ""
+  },
+  "entities": {
+    "type": {
+      "label": "",
+      "noItems": "",
+      "deleteDialog": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "common": {
+    "loadingMore": "",
+    "dataDeleted": "",
+    "delete": "",
+    "yes": "",
+    "no": "",
+    "notAuthenticated": ""
+  },
+  "pagination": {
+    "ariaLabels": {
+      "firstPage": "",
+      "previousPage": "",
+      "nextPage": "",
+      "lastPage": ""
+    }
+  },
+  "error": {
+    "dataLoading": ""
+  }
+}

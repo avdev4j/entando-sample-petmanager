@@ -9,7 +9,8 @@
     "download": "Scarica file",
     "dataDeleted": "Type eliminato/a con successo",
     "yes": "Si",
-    "no": "No"
+    "no": "No",
+    "delete": ""
   },
   "pagination": {
     "ariaLabels": {

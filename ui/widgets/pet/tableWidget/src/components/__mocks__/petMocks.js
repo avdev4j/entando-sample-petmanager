@@ -2,14 +2,14 @@ const petMocks = [
   {
     id: 0,
     name:
-      'Temporibus eveniet ut harum quia molestiae numquam laborum dolor. Explicabo impedit consequuntur rerum et incidunt. Magnam animi illo maxime quam sunt consectetur veniam velit. Aut rem omnis sint.',
-    birth: '1975-08-30T01:11:52+01:00',
+      'Voluptas quisquam et sint impedit vitae natus. Et earum aspernatur magnam. Vero sit fugiat. Placeat sapiente dicta ut quia dicta magnam ipsam. Nulla eum pariatur pariatur culpa explicabo. Enim dolor et rem totam.',
+    birth: '1986-10-10T17:52:29+01:00',
   },
   {
     id: 1,
     name:
-      'Illum praesentium hic aut quod expedita nobis eum doloremque. Et nihil necessitatibus corporis voluptas qui eius ab illo earum. Autem dolor natus occaecati ipsam eum. Sed numquam quam quaerat hic qui cum inventore qui.',
-    birth: '2002-09-10T14:29:45+02:00',
+      'Magni harum sunt et autem velit quidem et itaque. Commodi pariatur est dolor maxime qui ea consequatur aut. Error iure laudantium deleniti nostrum omnis et. Provident libero dignissimos vel aliquid blanditiis corporis harum. Animi deserunt porro hic quaerat minus.',
+    birth: '2004-11-15T21:35:14+01:00',
   },
 ];
 

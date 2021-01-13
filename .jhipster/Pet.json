@@ -1,7 +1,15 @@
 {
   "fluentMethods": true,
   "clientRootFolder": "petManager",
-  "relationships": [],
+  "relationships": [
+    {
+      "relationshipName": "type",
+      "otherEntityName": "type",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "label",
+      "otherEntityRelationshipName": "pet"
+    }
+  ],
   "fields": [
     {
       "fieldName": "name",

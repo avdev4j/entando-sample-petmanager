@@ -1,5 +1,6 @@
 package com.mycompany.myapp.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
@@ -29,6 +30,10 @@ public class Pet implements Serializable {
 
     @Column(name = "birth")
     private Instant birth;
+
+    @ManyToOne
+    @JsonIgnoreProperties(value = "pets", allowSetters = true)
+    private Type type;
 
     // jhipster-needle-entity-add-field - JHipster will add fields here
     public Long getId() {
@@ -63,6 +68,19 @@ public class Pet implements Serializable {
 
     public void setBirth(Instant birth) {
         this.birth = birth;
+    }
+
+    public Type getType() {
+        return type;
+    }
+
+    public Pet type(Type type) {
+        this.type = type;
+        return this;
+    }
+
+    public void setType(Type type) {
+        this.type = type;
     }
     // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here
 

@@ -10,12 +10,12 @@ describe('PetTable', () => {
     const { getByText } = render(<PetTable items={petMocks} />);
     expect(
       getByText(
-        'Temporibus eveniet ut harum quia molestiae numquam laborum dolor. Explicabo impedit consequuntur rerum et incidunt. Magnam animi illo maxime quam sunt consectetur veniam velit. Aut rem omnis sint.'
+        'Voluptas quisquam et sint impedit vitae natus. Et earum aspernatur magnam. Vero sit fugiat. Placeat sapiente dicta ut quia dicta magnam ipsam. Nulla eum pariatur pariatur culpa explicabo. Enim dolor et rem totam.'
       )
     ).toBeInTheDocument();
     expect(
       getByText(
-        'Illum praesentium hic aut quod expedita nobis eum doloremque. Et nihil necessitatibus corporis voluptas qui eius ab illo earum. Autem dolor natus occaecati ipsam eum. Sed numquam quam quaerat hic qui cum inventore qui.'
+        'Magni harum sunt et autem velit quidem et itaque. Commodi pariatur est dolor maxime qui ea consequatur aut. Error iure laudantium deleniti nostrum omnis et. Provident libero dignissimos vel aliquid blanditiis corporis harum. Animi deserunt porro hic quaerat minus.'
       )
     ).toBeInTheDocument();
   });
@@ -24,12 +24,12 @@ describe('PetTable', () => {
     const { queryByText } = render(<PetTable items={[]} />);
     expect(
       queryByText(
-        'Temporibus eveniet ut harum quia molestiae numquam laborum dolor. Explicabo impedit consequuntur rerum et incidunt. Magnam animi illo maxime quam sunt consectetur veniam velit. Aut rem omnis sint.'
+        'Voluptas quisquam et sint impedit vitae natus. Et earum aspernatur magnam. Vero sit fugiat. Placeat sapiente dicta ut quia dicta magnam ipsam. Nulla eum pariatur pariatur culpa explicabo. Enim dolor et rem totam.'
       )
     ).not.toBeInTheDocument();
     expect(
       queryByText(
-        'Illum praesentium hic aut quod expedita nobis eum doloremque. Et nihil necessitatibus corporis voluptas qui eius ab illo earum. Autem dolor natus occaecati ipsam eum. Sed numquam quam quaerat hic qui cum inventore qui.'
+        'Magni harum sunt et autem velit quidem et itaque. Commodi pariatur est dolor maxime qui ea consequatur aut. Error iure laudantium deleniti nostrum omnis et. Provident libero dignissimos vel aliquid blanditiis corporis harum. Animi deserunt porro hic quaerat minus.'
       )
     ).not.toBeInTheDocument();
 
@@ -41,7 +41,7 @@ describe('PetTable', () => {
     const { getByText } = render(<PetTable items={petMocks} onSelect={onSelectMock} />);
     fireEvent.click(
       getByText(
-        'Temporibus eveniet ut harum quia molestiae numquam laborum dolor. Explicabo impedit consequuntur rerum et incidunt. Magnam animi illo maxime quam sunt consectetur veniam velit. Aut rem omnis sint.'
+        'Voluptas quisquam et sint impedit vitae natus. Et earum aspernatur magnam. Vero sit fugiat. Placeat sapiente dicta ut quia dicta magnam ipsam. Nulla eum pariatur pariatur culpa explicabo. Enim dolor et rem totam.'
       )
     );
     expect(onSelectMock).toHaveBeenCalledTimes(1);

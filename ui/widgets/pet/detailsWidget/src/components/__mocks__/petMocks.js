@@ -1,7 +1,7 @@
 const petApiGetResponse = {
   name:
-    'Temporibus eveniet ut harum quia molestiae numquam laborum dolor. Explicabo impedit consequuntur rerum et incidunt. Magnam animi illo maxime quam sunt consectetur veniam velit. Aut rem omnis sint.',
-  birth: '1975-08-30T01:11:52+01:00',
+    'Voluptas quisquam et sint impedit vitae natus. Et earum aspernatur magnam. Vero sit fugiat. Placeat sapiente dicta ut quia dicta magnam ipsam. Nulla eum pariatur pariatur culpa explicabo. Enim dolor et rem totam.',
+  birth: '1986-10-10T17:52:29+01:00',
 };
 
 export default petApiGetResponse;

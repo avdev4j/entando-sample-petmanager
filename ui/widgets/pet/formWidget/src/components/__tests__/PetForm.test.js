@@ -17,7 +17,7 @@ describe('Pet Form', () => {
       </ThemeProvider>
     );
     expect(getByLabelText('entities.pet.name').value).toBe(
-      'Temporibus eveniet ut harum quia molestiae numquam laborum dolor. Explicabo impedit consequuntur rerum et incidunt. Magnam animi illo maxime quam sunt consectetur veniam velit. Aut rem omnis sint.'
+      'Voluptas quisquam et sint impedit vitae natus. Et earum aspernatur magnam. Vero sit fugiat. Placeat sapiente dicta ut quia dicta magnam ipsam. Nulla eum pariatur pariatur culpa explicabo. Enim dolor et rem totam.'
     );
   });
 

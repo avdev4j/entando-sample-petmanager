@@ -1,0 +1,34 @@
+{
+  "error": {
+    "dataLoading": "Errore durante la connessione al server"
+  },
+  "common": {
+    "save": "Salva",
+    "dataSaved": "Pet salvato/a con successo",
+    "dataDeleted": "Pet eliminato/a con successo",
+    "notAuthenticated": "L'utente non è autenticato.",
+    "selectFile": "Carica nuovo file",
+    "selectImageFile": "Carica nuova immagine",
+    "download": "Scarica",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "yes": "Si",
+    "no": "No"
+  },
+  "validation": {
+    "required": "{{field}} è obbligatorio"
+  },
+  "entities": {
+    "pet": {
+      "deleteDialog": {
+        "title": "Elimina pet",
+        "description": "Sei sicuro/a?"
+      },
+      "notFound": "Pet non trovato/a",
+      "deleted": "Pet eliminato/a",
+      "id": "ID",
+      "name": "entità.pet.name",
+      "birth": "entità.pet.birth"
+    }
+  }
+}
